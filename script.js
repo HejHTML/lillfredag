@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const API_URL = "https://opentdb.com/api.php?amount=12&category=11&difficulty=easy&type=multiple";
+  const API_URL = "https://opentdb.com/api.php?amount=10&difficulty=easy&type=multiple";
   const questionBox = document.getElementById("question");
   const optionsBox = document.getElementById("options");
   const result = document.getElementById("result");
