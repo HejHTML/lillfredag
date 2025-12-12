@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     try {
       const lagrade = JSON.parse(localStorage.getItem("fredagsQuiz"));
-      if (lagrade && lagrade.week === weekNumber && Array.isArray(lagrade.data) && lagrade.data.length === 5) {
+      if (lagrade && lagrade.week === weekNumber && Array.isArray(lagrade.data) && lagrade.data.length === 2) {
         veckansFragor = lagrade.data;
         aktuellIndex = 0;
         poang = 0;
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function visaSlut() {
-    questionBox.textContent = "🎉 Klart! Du har gjort alla 5 fredagsfrågorna!";
+    questionBox.textContent = "🎉 Klart! Du har gjort alla 5 lill-fredagsfrågorna!";
     optionsBox.innerHTML = "";
     result.textContent = `Din slutpoäng: ${poang}/${veckansFragor.length}`;
     if (poang === veckansFragor.length && typeof confetti === "function") startConfetti();
