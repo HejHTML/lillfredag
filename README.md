@@ -1,0 +1,2 @@
+# lillfredag
+Frågesportfredag på tisdagar
