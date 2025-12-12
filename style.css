@@ -1,0 +1,85 @@
+body {
+  font-family: system-ui;
+  background-color: #620303ce;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffcc00;
+  margin: 0 auto 30px auto; /* topp, vänster/höger auto, botten */
+  font-size: 50px;
+  text-shadow: 2px 2px #ff0000;
+  max-width: 100%;
+  text-align: center; /* försäkrar att texten är centrerad inom h1 */
+}
+
+
+.quiz-box {
+  background: #DE5A3E;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 20px 20px #DE3210;
+}
+
+#question {
+  font-size: 25px;
+  margin-bottom: 25px;
+  color: #ffffff;
+   text-shadow: 2px 2px #ff0000;
+}
+
+/* Knappar för svarsalternativ */
+.option-btn {
+  display: block;
+  width: 100%;
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 2px;
+ box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  padding: 12px;
+  font-size: 1rem;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.option-btn:hover {
+  background-color: #ff9900;
+  transform: scale(1.03);
+}
+
+/* Resultattext */
+#result {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Responsiv design för mobiler */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .quiz-box {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  #question {
+    font-size: 1.1rem;
+  }
+
+  .option-btn {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+}
