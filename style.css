@@ -17,12 +17,12 @@ h1 {
 
 
 .quiz-box {
-  background: #DE5A3E;
+  background: #15c040;
   border-radius: 16px;
   padding: 30px;
   max-width: 500px;
   margin: 0 auto;
-  box-shadow: 0 20px 20px #DE3210;
+  box-shadow: 0 20px 20px #9ffd32;
 }
 
 #question {
