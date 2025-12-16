@@ -17,7 +17,7 @@ h1 {
 
 
 .quiz-box {
-  background: #57FF57;
+  background: #437A45;
   border-radius: 16px;
   padding: 30px;
   max-width: 500px;
@@ -28,8 +28,8 @@ h1 {
 #question {
   font-size: 25px;
   margin-bottom: 25px;
-  color: #ffffff;
-   text-shadow: 2px 2px #ff0000;
+  color: #000000;
+   text-shadow: 2px 2px #696969;
 }
 
 /* Knappar för svarsalternativ */
