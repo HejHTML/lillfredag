@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Visa bara fredag
-  if (new Date().getDay() !== 2) {
+  if (new Date().getDay() !== 3) {
     quizBox.innerHTML = "<p>Kom tillbaka på tisdag för fler lill-fredagsfrågor! 📅</p>";
   } else {
     hamtaVeckansFragor();
