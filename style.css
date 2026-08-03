@@ -21,7 +21,7 @@ p {
   }
   
 .quiz-box {
-  background: #32b3cd;
+  background: #65b9d3;
   border-radius: 16px;
   padding: 30px;
   max-width: 500px;
@@ -33,7 +33,6 @@ p {
   font-size: 25px;
   margin-bottom: 25px;
   color: #000000;
-   text-shadow: 2px 2px #696969;
 }
 
 /* Knappar för svarsalternativ */
