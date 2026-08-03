@@ -15,7 +15,11 @@ h1 {
   text-align: center; /* försäkrar att texten är centrerad inom h1 */
 }
 
-
+p {
+    color: #696969;
+    font-size: 40px;
+  }
+  
 .quiz-box {
   background: #32b3cd;
   border-radius: 16px;
