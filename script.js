@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })();
   }
 
-  // Visa bara fredag
+  // Visa bara tisdag
   if (new Date().getDay() !== 1) {
     quizBox.innerHTML = "<p>Kom tillbaka på tisdag för fler lill-fredagsfrågor! 📅</p>";
   } else {
