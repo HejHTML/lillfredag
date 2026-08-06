@@ -16,7 +16,8 @@ h1 {
 }
 
 p {
-    color: #48bf53;
+    color: #000000;
+  text-shadow: 2px 2px 	#24C276;
     font-size: 25px;
   }
   
@@ -26,7 +27,6 @@ p {
   padding: 30px;
   max-width: 500px;
   margin: 0 auto;
-  box-shadow: 10px 10px 10px 10px #555555;
 }
 
 #question {
